@@ -1,1 +1,0 @@
-C:\Users\jhset\Documents\GitHub\Spark\Spark\Spark\Spark.csproj;x86
