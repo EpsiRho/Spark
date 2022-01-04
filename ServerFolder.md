@@ -1,0 +1,35 @@
+# Paper 1.18
+
+- [F] cache
+- [F] libraries
+- [F] logs
+  - Used on advanced page for log viewing
+- [F] plugins
+  - Used in plugins/datapacks menu
+- [F] versions
+- [F] world
+  - Used when checking world size
+  - Used in plugins/datapacks menu
+- [F] world_nether
+  - Used when checking world size
+- [F] world_the_end
+  - Used when checking world size
+- [D] .console_history
+- [D] banned-ips.json
+- [D] bukkit.yml
+- [D] commands.yml
+- [D] eula.txt
+  - Used to check anytime a server starts
+- [D] help.yml
+- [D] ops.json
+- [D] paper.yml
+- [D] permissions.yml
+- [!!!] Server Jar
+  - Used to launch the server into the pipe
+- [D] server.properties
+  - Used on server properties page
+- [D] spigot.yml
+- [D] usercache.json
+- [D] version_history.json
+- [D] whitelist.json
+  - Used on server properties page
