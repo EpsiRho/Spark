@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Spark.Classes
+namespace SparkMC.Classes
 {
     public class CustomTreeViewItem
     {

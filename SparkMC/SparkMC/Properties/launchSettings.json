@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SparkMC (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "SparkMC (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Spark.Classes
+namespace SparkMC.Classes
 {
     public class Server
     {
@@ -16,6 +16,6 @@ namespace Spark.Classes
 
     public class AllServers
     {
-        public List<Server> Items { get; set;}
+        public List<Server> Items { get; set; }
     }
 }

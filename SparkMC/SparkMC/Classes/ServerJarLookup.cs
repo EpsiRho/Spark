@@ -1,13 +1,13 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using RestSharp;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Newtonsoft.Json;
-using RestSharp;
 
-namespace Spark.Classes
+namespace SparkMC.Classes
 {
     public static class ServerJarLookup
     {
@@ -17,7 +17,7 @@ namespace Spark.Classes
 
             var types = GetServerTypes();
 
-            foreach(var type in types.response.servers)
+            foreach (var type in types.response.servers)
             {
                 var jars = GetServerJars(type);
                 CustomTreeViewItem item = new CustomTreeViewItem();
@@ -49,7 +49,7 @@ namespace Spark.Classes
         {
             RestClient client = new RestClient();
             client.BaseUrl = new Uri("https://serverjars.com/api/fetchTypes/");
-            
+
             RestRequest restRequest = new RestRequest();
             restRequest.Method = Method.GET;
 

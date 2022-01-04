@@ -1,4 +1,4 @@
-﻿using Spark.Classes;
+﻿using SparkMC.Classes;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -8,7 +8,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Spark.ViewModels
+namespace SparkMC.ViewModels
 {
     public class ServerViewModel
     {
